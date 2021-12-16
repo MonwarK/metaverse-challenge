@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
           className='w-full h-screen object-cover'
           src="https://static.videezy.com/system/resources/previews/000/040/825/original/1975Z_stktunnelmotionsscifi56724temple.mp4" 
           autoPlay
+          playsinline 
           loop
           muted 
         ></video>
