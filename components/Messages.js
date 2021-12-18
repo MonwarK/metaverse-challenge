@@ -32,7 +32,7 @@ export default function Messages() {
         />
       </div>
 
-      <div className="max-w-screen-md h-[50vh] mx-auto text-white overflow-auto scrollbar-hide">
+      <div className="max-w-screen-xl h-[50vh] mx-auto text-white overflow-auto scrollbar-hide">
         {data.map(message => (
           <Message key={message.id} message={message} />
         ))}

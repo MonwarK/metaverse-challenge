@@ -21,7 +21,7 @@ export default function Login() {
         ) : (
           <button 
             onClick={authenticate}
-            className="border-2 border-purple-200 text-white p-5 bg-purple-400 hover:bg-purple-500 bg-opacity-50 hover:bg-opacity-50 font-medium"
+            className="border-2 border-blue-200 text-white p-5 bg-blue-400 hover:bg-blue-500 bg-opacity-50 hover:bg-opacity-50 font-medium"
           >
             Login to the METAVERSE
           </button>

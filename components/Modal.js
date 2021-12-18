@@ -46,7 +46,7 @@ export default function Modal({close}) {
           />
           <button 
             onClick={changeUsername}
-            className="bg-red-500 hover:bg-red-400 duration-150 w-full mt-3 p-3 font-medium rounded-md"
+            className="w-full border-2 border-blue-200 text-white p-2 mt-3 bg-blue-400 hover:bg-blue-500 bg-opacity-50 hover:bg-opacity-50 font-medium"
           >Change username</button>
         </motion.div>
       </div>
