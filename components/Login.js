@@ -10,7 +10,7 @@ export default function Login() {
     <div className="bg-black relative h-screen grid place-items-center">
       <Tilt className="relative z-10 cursor-pointer border-4 border-blue-400 rounded-full bg-black bg-opacity-60" tiltReverse>
         <img
-          className="h-40 w-40 rounded-full object-cover"
+          className="h-40 w-40 rounded-full object-cover shadow-lg"
           src="https://avatars.dicebear.com/api/pixel-art/metaverse.svg"
           alt=""
         />

@@ -12,7 +12,10 @@ export default function Message({ message }) {
         <Avatar username={message.get("username")} />
       </div>
 
-      <div className={`text-gray-100 flex space-x-4 p-3 rounded-lg font-bold ${isUserMessage ? "rounded-br-none bg-green-300" : "rounded-bl-none bg-blue-300"}`}>
+      <div className={`
+        text-gray-100 max-w-[60%] p-3 rounded-lg font-bold relative break-words
+        ${isUserMessage ? "rounded-br-none bg-green-300" : "rounded-bl-none bg-blue-300"}
+       `}>
         <p>{message.get("message")}</p>
       </div>
 
