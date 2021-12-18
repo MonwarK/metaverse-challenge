@@ -2,7 +2,7 @@ import { useMoralis } from 'react-moralis';
 import Login from '../components/Login';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import Modal from '../components/modal';
+import Modal from '../components/Modal';
 import Header from '../components/Header';
 import Messages from '../components/Messages';
 
