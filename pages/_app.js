@@ -8,15 +8,10 @@ function MyApp({ Component, pageProps }) {
       serverUrl={process.env.NEXT_PUBLIC_SERVER_URL}
     >
       <Component {...pageProps} />
-      <div className="absolute top-0 left-0 h-screen w-full brightness-[60%]">
-        {/* <img
-          className="object-cover h-screen w-full"
-          src="https://links.papareact.com/55n"
-          alt=""
-        /> */}
+      <div className="absolute top-0 left-0 z-0 h-screen w-full brightness-[60%]">
         <video 
           className='w-full h-screen object-cover'
-          src="https://static.videezy.com/system/resources/previews/000/040/825/original/1975Z_stktunnelmotionsscifi56724temple.mp4" 
+          src="https://assets.mixkit.co/videos/preview/mixkit-driving-through-futuristic-neon-3d-space-landscape-5399-large.mp4" 
           autoPlay
           playsInline 
           loop
