@@ -1,6 +1,6 @@
 import Avatar from '../components/Avatar';
 import TypeWriter from 'react-typewriter';
-import { PencilIcon } from "@heroicons/react/outline"
+import { PencilIcon } from "@heroicons/react/outline";
 
 export default function Header({user, logout, open}) {
   return (
@@ -15,7 +15,7 @@ export default function Header({user, logout, open}) {
           className='w-4 h-4 cursor-pointer'
         />
       </div>
-      <div className='p-2 h-28 w-28 relative mx-auto border-4 rounded-full border-blue-400'>
+      <div className='p-2 h-28 w-28 relative mx-auto border-4 rounded-full border-blue-400 cursor-pointer hover:animate-pulse'>
         <Avatar onClick={logout} />
       </div>
     </div>

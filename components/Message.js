@@ -17,7 +17,7 @@ export default function Message({ message }) {
       </div>
 
       <TimeAgo 
-        className={`text-[10px] italic text-gray-300 ${isUserMessage && "order-first pr-1"}`}
+        className={`text-[10px] italic truncate text-gray-300 ${isUserMessage && "order-first pr-1"}`}
         datetime={message.createdAt}
       />
 

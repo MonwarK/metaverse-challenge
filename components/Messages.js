@@ -42,7 +42,7 @@ export default function Messages() {
       </div>
 
 
-      <div className="relative z-20">
+      <div className="z-20 bottom-5 absolute w-full max-w-4/5 left-0 right-0">
         <SendMessage endOfMessagesRef={endOfMessagesRef} />
       </div>
 
